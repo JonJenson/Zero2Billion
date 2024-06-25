@@ -1,493 +1,287 @@
-/* ourcoaches.css */
-
-.ourcoaches-container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 100px;
-  font-family: "Roboto", sans-serif;
-  position: relative;
-}
-
-.sc-title {
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 40px;
-  text-align: center;
-}
-
-.ourcoaches-card-container {
-  overflow: hidden;
-  width: 100%;
-}
-
-.ourcoaches-cards {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-  padding: 0 20px; /* Add padding to the container */
-}
-
-.ourcoaches-card {
-  min-width: 50%;
-  max-width: calc(50% - 20px); /* Adjust width for padding */
-  height: 250px;
-  background-color: #ffffff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  display: flex;
-  position: relative;
-  margin: 0 10px 20px 0; /* Adjust margins */
-  padding: 10px; /* Add padding to each card */
-}
-
-.ourcoaches-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
-}
-
-.ourcoaches-card-content {
-  padding: 20px;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-.ourcoaches-card-name {
-  font-size: 20px;
-  font-weight: 800;
-  color: #0f1a3a;
-  margin-bottom: 8px;
-  position: relative;
-}
-
-.ourcoaches-card-name::after {
-  content: "";
-  display: block;
-  width: 75%;
-  height: 3px;
-  border-radius: 3px;
-  background-color: #3d51a3;
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-}
-
-.ourcoaches-card-designation,
-.ourcoaches-card-company {
-  font-size: 16px;
-  font-weight: 400;
-  margin-top: 10px;
-  color: #707071;
-  margin-bottom: 8px;
-}
-
-.ourcoaches-card-details {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  font-size: 14px;
-  color: #707071;
-  margin-top: auto;
-}
-
-.ourcoaches-card-details a {
-  text-decoration: none;
-  font-weight: 500;
-  margin-top: 10px;
-  transition: color 0.3s ease;
-}
-
-.ourcoaches-card-details a.gmail-link {
-  color: #292f53;
-}
-
-.ourcoaches-card-details a.linkedin-link {
-  color: #3d51a3;
-}
-
-.ourcoaches-card-details a.linkedin-link:hover {
-  color: #1c199a;
-}
-
-.ourcoaches-card-image {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 8px;
-}
-
-.ourcoaches-arrows {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  transform: translateY(-50%);
-  padding: 0 20px; /* Adjust padding if needed */
-}
-
-.arrow {
-  font-size: 2rem;
-  cursor: pointer;
-  user-select: none;
-  color: #3d51a3;
-  transition: color 0.3s ease;
-  margin-right: 20px; /* Add space between arrows */
-}
-
-.arrow:first-child {
-  margin-left: -10px; /* Adjust left margin for the first arrow */
-}
-
-.arrow:hover {
-  color: #1c199a;
-}
-
-.arrow.disabled {
-  color: #ccc;
-  pointer-events: none;
-}
-
-@media (max-width: 1152px) {
-  .ourcoaches-card {
-    max-width: calc(50% - 10px); /* Adjust width for padding */
-    margin-right: 0;
-  }
-
-  .ourcoaches-card-details,
-  .ourcoaches-card-company {
-    display: none; /* Hide company and designation */
-  }
-
-  .ourcoaches-card-name::after {
-    width: 100%; /* Extend underline to full width */
-  }
-}
-
-@media (max-width: 768px) {
-  .ourcoaches-card {
+#our-coaches {
     width: 100%;
-  }
-}
-/* ourcoaches.css */
-
-.ourcoaches-container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 100px;
-  font-family: "Roboto", sans-serif;
-  position: relative;
+    background-color: var(--color-F7F7F7);
 }
 
-.sct-title {
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 40px;
-  text-align: center;
-}
-
-.sct-title::after {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 4px;
-    border-radius: 5px;
-    margin: 8px auto;
-    background-color: var(--color-1C199A);
-    position: absolute; /* Position the underline absolutely */
-    bottom: 72%; /* Align the bottom of the underline with the bottom of the text */
-    left: 50%;
-    transform: translateX(-50%); /* Center the underline horizontally */
-}
-
-
-.ourcoaches-card-container {
-  overflow: hidden;
-  width: 100%;
-}
-
-.ourcoaches-cards {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-  padding: 0 20px; /* Add padding to the container */
-}
-
-.ourcoaches-card {
-  min-width: 50%;
-  max-width: calc(
-    50% - 20px
-  ); /* Adjust width for padding /
-    height: 250px;
-    background-color: #FFFFFF;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    display: flex;
-    position: relative;
-    margin: 0 10px 20px 0; / Adjust margins /
-    padding: 10px; / Add padding to each card */
-  margin-left: 2px;
-}
-
-.ourcoaches-card {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
-}
-
-.ourcoaches-card-content {
-  padding: 20px;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-.ourcoaches-card-name {
-  font-size: 20px;
-  font-weight: 800;
-  color: #0f1a3a;
-  margin-bottom: 8px;
-  position: relative;
-}
-
-.ourcoaches-card-name::after {
-  content: "";
-  display: block;
-  width: 75%;
-  height: 3px;
-  border-radius: 3px;
-  background-color: #3d51a3;
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-}
-
-.ourcoaches-card-designation,
-.ourcoaches-card-company {
-  font-size: 16px;
-  font-weight: 400;
-  margin-top: 10px;
-  color: #707071;
-  margin-bottom: 8px;
-}
-
-.ourcoaches-card-email,
-.ourcoaches-card-linkedin {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  font-size: 14px;
-  color: #707071;
-  margin-top: auto;
-}
-
-.ourcoaches-card-email,
-.ourcoaches-card-linkedin a {
-  text-decoration: none;
-  font-weight: 500;
-  margin-top: 10px;
-  transition: color 0.3s ease;
-}
-
-.ourcoaches-card-email {
-  color: #292f53;
-}
-
-.ourcoaches-card-linkedin {
-  color: #3d51a3;
-}
-
-.ourcoaches-card-linkedin {
-  color: #1c199a;
-}
-
-.ourcoaches-card-image {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 8px;
-}
-
-.ourcoaches-arrows {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  transform: translateY(-50%);
-  padding: -40px -10px; /* Adjust padding if needed */
-  margin-left: -50px;
-  margin-right: 120px;
-}
-
-.arrow {
-  font-size: 2rem;
-  cursor: pointer;
-  user-select: none;
-  color: #3d51a3;
-  transition: color 0.3s ease;
-  margin-right: 50px; /* Add space between arrows */
-}
-
-.arrow {
-  color: #1c199a;
-}
-
-.arrow.disabled {
-  color: #ccc;
-  pointer-events: none;
-}
-
-@media (max-width: 1156px) {
-  .ourcoaches-card {
-    max-width: calc(50% - 10px); /* Adjust width for padding */
-    margin-right: 0;
-  }
-
-  .ourcoaches-card-details,
-  .ourcoaches-card-company,
-  .ourcoaches-card-designation {
-    display: none; /* Hide company, designation, and details */
-  }
-
-  .ourcoaches-card-name::after {
-    width: 100%; /* Extend underline to full width */
-  }
-
-  .ourcoaches-card-email,
-  .ourcoaches-card-linkedin {
+.our-coaches-cont {
+    width: 100%;
+    height: 100%;
+    padding: 100px 0px 100px 0px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align links to the end */
-    margin-top: 50px; /* Adjust margin for links */
-  }
-
-  .ourcoaches-card-email {
-    order: 5; /* Move Gmail link to the end */
-    margin-bottom: 0px;
-  }
-
-  .ourcoaches-card-linkedin {
-    order: 7; /* Move LinkedIn link before Gmail */
-    margin-bottom: 200px;
-  }
-
-  .ourcoaches-card-name::after {
-    width: 100%; /* Extend underline to full width */
-  }
+    justify-content: center;
+    align-items: center;
+    gap: 4.5rem
 }
 
-@media (max-width: 930px) {
-  .ourcoaches-cards {
+.our-coaches-cont .oc-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    width: 100%;
+    padding-left: 8%;
+    font-family: var(--font-roboto);
+    color: var(--color-292F53);
+    text-align: left;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.our-coaches-cont .oc-title::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    border-radius: 5px;
+    margin: 10px auto;
+    background-color: var(--color-3D51A3);
+    position: absolute;
+    left: 8%;
+}
+
+.our-coaches-cont .oc-outer-wrapper {
+    width: 100%;
+    height: 100%;
     display: flex;
-    overflow-x: auto; /* Enable horizontal scrolling */
-    gap: 20px; /* Space between cards */
-    padding-bottom: 20px; /* Ensure space at the bottom for navigation */
-    scroll-snap-type: x mandatory; /* Snap each card to the viewport */
-  }
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 1rem
+}
 
-  .ourcoaches-card {
-    flex: 0 0 auto; /* Allow cards to shrink and grow as needed */
-    min-width: calc(50% - 20px); /* Adjust width for padding */
-    max-width: calc(50% - 20px); /* Adjust width for padding */
-    height: 250px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+.our-coaches-cont .oc-card-cont {
+    position: relative;
+    overflow: hidden;
+    width: 1160px;
+    height: 100%;
+}
 
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+.our-coaches-cont .oc-card-cont .oc-cc-wrapper-cont {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 0;
+    transition: all 0.3s ease;
+}
+
+.our-coaches-cont .oc-card-cont .oc-cc-wrapper-cont .oc-cc-card {
+    width: 560px;
+    height: 290px;
+    background-color: var(--color-FFFFFF);
+    border-radius: 0;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-coaches-cont .oc-card-cont .oc-cc-wrapper-cont .oc-cc-card .oc-cc-card-cont {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+
+.our-coaches-cont .oc-card-cont .oc-cc-wrapper-cont .oc-cc-card .oc-cc-card-cont .oc-cc-cc-image-cont {
+    width: 240px;
+    height: 290px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+}
+
+.our-coaches-cont .oc-card-cont .oc-cc-wrapper-cont .oc-cc-card .oc-cc-card-cont .oc-cc-cc-image-cont img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+.our-coaches-cont .oc-card-cont .oc-cc-wrapper-cont .oc-cc-card .oc-cc-card-cont .oc-cc-cc-text-cont {
+    width: 320px;
+    height: 290px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10px; /* Add padding to each card */
-    scroll-snap-align: start; /* Snap to the start of each card */
-  }
+    align-items: center;
+    padding: 40px;
+}
 
-  .ourcoaches-card-content {
-    flex: 1;
-  }
-
-  .ourcoaches-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
-  }
-
-  .ourcoaches-card-name {
-    font-size: 20px;
-    font-weight: 800;
-    color: #0f1a3a;
-    margin-bottom: 8px;
-    position: relative;
-  }
-
-  .ourcoaches-card-name::after {
-    content: "";
-    display: block;
+.our-coaches-cont .oc-card-cont .oc-cc-wrapper-cont .oc-cc-card .oc-cc-card-cont .oc-cc-cc-text-cont .oc-cc-cc-tc-coach-detail-cont {
     width: 100%;
-    height: 3px;
-    border-radius: 3px;
-    background-color: #3d51a3;
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-  }
-
-  .ourcoaches-card-designation,
-  .ourcoaches-card-company {
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 10px;
-    color: #707071;
-    margin-bottom: 8px;
-  }
-  .ourcoaches-card-email,
-  .ourcoaches-card-linkedin {
+    height: fit-content;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
-    font-size: 14px;
-    color: #707071;
-    margin-top: auto;
-  }
+    gap: 0rem;
+}
 
-  .ourcoaches-card-email,
-  .ourcoaches-card-linkedin a {
-    text-decoration: none;
+.our-coaches-cont .oc-card-cont .oc-cc-wrapper-cont .oc-cc-card .oc-cc-card-cont .oc-cc-cc-text-cont .oc-cc-cc-tc-coach-detail-cont .oc-cc-cc-tc-cdc-name {
+    font-family: var(--font-roboto);
+    font-size: 25px;
     font-weight: 500;
-    margin-top: 10px;
-    transition: color 0.3s ease;
-  }
+    color: var(--color-0F1A3A);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    text-transform: capitalize;
+    position: relative;
+    margin-bottom: 0.8rem;
+}
 
-  .ourcoaches-card-email {
-    color: #292f53;
-  }
+.our-coaches-cont .oc-card-cont .oc-cc-wrapper-cont .oc-cc-card .oc-cc-card-cont .oc-cc-cc-text-cont .oc-cc-cc-tc-coach-detail-cont .oc-cc-cc-tc-cdc-name::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: var(--color-1C199A);
+}
 
-  .ourcoaches-card-linkedin {
-    color: #3d51a3;
-  }
+.our-coaches-cont .oc-card-cont .oc-cc-wrapper-cont .oc-cc-card .oc-cc-card-cont .oc-cc-cc-text-cont .oc-cc-cc-tc-coach-detail-cont .oc-cc-cc-tc-cdc-designation {
+    font-family: var(--font-roboto);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-292F53);
+    text-transform: capitalize;
+    margin-bottom: 0.2rem;
+}
 
-  .ourcoaches-card-linkedin :hover {
-    color: #1c199a;
-  }
+.our-coaches-cont .oc-card-cont .oc-cc-wrapper-cont .oc-cc-card .oc-cc-card-cont .oc-cc-cc-text-cont .oc-cc-cc-tc-coach-detail-cont .oc-cc-cc-tc-cdc-company {
+    font-family: var(--font-roboto);
+    font-size: 17px;
+    font-weight: 300;
+    color: var(--color-292F53);
+    text-transform: capitalize;
+}
 
-  .ourcoaches-card-image {
+.our-coaches-cont .oc-card-cont .oc-cc-wrapper-cont .oc-cc-card .oc-cc-card-cont .oc-cc-cc-text-cont .oc-cc-cc-tc-social-media-handle-cont {
     width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 8px;
-  }
-
-  .ourcoaches-arrows {
-    display: none; /* Hide arrows for this breakpoint */
-  }
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
 }
 
-@media (max-width: 768px) {
-  .ourcoaches-container{
-    display:none;
-  }
+.our-coaches-cont .oc-card-cont .oc-cc-wrapper-cont .oc-cc-card .oc-cc-card-cont .oc-cc-cc-text-cont .oc-cc-cc-tc-social-media-handle-cont .oc-cc-cc-tc-smhc-email a {
+    color: var(--color-0F1A3A);
+    font-family: var(--font-roboto);
+    font-size: 17px;
+    font-weight: 400;
 }
 
+.our-coaches-cont .oc-card-cont .oc-cc-wrapper-cont .oc-cc-card .oc-cc-card-cont .oc-cc-cc-text-cont .oc-cc-cc-tc-social-media-handle-cont .oc-cc-cc-tc-smhc-email a:hover {
+    color: var(--color-1C199A);
+}
+
+.our-coaches-cont .oc-card-cont .oc-cc-wrapper-cont .oc-cc-card .oc-cc-card-cont .oc-cc-cc-text-cont .oc-cc-cc-tc-social-media-handle-cont .oc-cc-cc-tc-smhc-linkedin {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.our-coaches-cont .oc-card-cont .oc-cc-wrapper-cont .oc-cc-card .oc-cc-card-cont .oc-cc-cc-text-cont .oc-cc-cc-tc-social-media-handle-cont .oc-cc-cc-tc-smhc-linkedin a {
+    color: var(--color-292F53);
+    font-family: var(--font-roboto);
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.our-coaches-cont .oc-card-cont .oc-cc-wrapper-cont .oc-cc-card .oc-cc-card-cont .oc-cc-cc-text-cont .oc-cc-cc-tc-social-media-handle-cont .oc-cc-cc-tc-smhc-linkedin:hover,
+.our-coaches-cont .oc-card-cont .oc-cc-wrapper-cont .oc-cc-card .oc-cc-card-cont .oc-cc-cc-text-cont .oc-cc-cc-tc-social-media-handle-cont .oc-cc-cc-tc-smhc-linkedin a:hover {
+    color: var(--color-1C199A);
+}
+
+.our-coaches-cont .oc-outer-wrapper .oc-ow-prev-button,
+.our-coaches-cont .oc-outer-wrapper .oc-ow-next-button {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: var(--color-0F1A3A);
+    color: var(--color-F7F7F7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+
+.our-coaches-cont .oc-outer-wrapper .oc-ow-prev-button:hover,
+.our-coaches-cont .oc-outer-wrapper .oc-ow-next-button:hover {
+    background-color: var(--color-1C199A);
+    transition: all 0.3s ease-in-out;
+}
+
+.our-coaches-cont .oc-outer-wrapper .oc-ow-prev-button-disabled,
+.our-coaches-cont .oc-outer-wrapper .oc-ow-next-button-disabled {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+@media screen and (min-width: 650px) and (max-width: 1249px) {
+    .our-coaches-cont .oc-card-cont {
+        width: 580px;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 669px) {
+    .our-coaches-cont .oc-card-cont {
+        width: 310px;
+    }
+
+    .our-coaches-cont .oc-card-cont .oc-cc-wrapper-cont .oc-cc-card {
+        width: 290px;
+        height: 610px;
+    }
+
+    .our-coaches-cont .oc-card-cont .oc-cc-wrapper-cont .oc-cc-card .oc-cc-card-cont .oc-cc-cc-text-cont {
+        width: 290px;
+    }
+
+    .our-coaches-cont .oc-card-cont .oc-cc-wrapper-cont .oc-cc-card .oc-cc-card-cont {
+        flex-direction: column;
+    }
+
+    .our-coaches-cont .oc-card-cont .oc-cc-wrapper-cont .oc-cc-card .oc-cc-card-cont .oc-cc-cc-image-cont {
+        width: 290px;
+        height: 320px;
+    }
+
+    .our-coaches-cont .oc-card-cont .oc-cc-wrapper-cont .oc-cc-card .oc-cc-card-cont .oc-cc-cc-text-cont .oc-cc-cc-tc-social-media-handle-cont .oc-cc-cc-tc-smhc-email a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 399px) {
+    .our-coaches-cont .oc-outer-wrapper {
+        gap: 0rem;
+    }
+}
+
+@media screen and (max-width: 349px) {
+    #our-coaches {
+        display: none;
+    } 
+}
+
+@media screen and (max-height: 349px) {
+    #our-coaches {
+        display: none;
+    }
+}
