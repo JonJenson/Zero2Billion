@@ -53,5 +53,11 @@ export const ApplyData = [
         formUrl: "/form/9",
         doubleLine: true,
         description: "Craft your winning admission strategy with us! Maximize student intake and beat competitors with expert guidance and tailored approaches."
-    }
-];
+    },
+    {
+        title: "Be a Mentor",
+        formUrl: "/form/14",
+        doubleLine: false,
+        description: "Join our Mentor Program! Share your expertise, guide others, and make a difference in their careers. Fill out the form below to get started. Thank you!"
+    },
+    ];

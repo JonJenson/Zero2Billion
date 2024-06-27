@@ -219,6 +219,102 @@ const formsData = [
               ]
             }
           },
+          {
+            id: 14,
+            data: {
+              title: "Be A Mentor",
+              fields: [
+                { type: "email", label: "Email", name: "email" },
+                { type: "text", label: "Name", name: "name" },
+                { type: "tel", label: "Contact Number", name: "contactnumber" },
+                { type: "text", label: "Location", name: "location" },
+                { type: "text", label: "LinkedIn URL", name: "linkedin" },
+                { type: "text", label: "Company Name", name: "companyname" },
+                { 
+                  type: "select", 
+                  label: "Designation", 
+                  name: "designation", 
+                  options: [
+                    "Agriculture & Agri tech",
+                    "Software Technologies",
+                    "Bio-Technology & Life Science",
+                    "Education & Edutech",
+                    "Healthcare & HealthTech",
+                    "Information & Communication Technology (ICT)",
+                    "IOT & Hardware Technology",
+                    "Fintech & Finance",
+                    "Manufacturing & Industrial",
+                    "Fitness & Wellness",
+                    "Entertainment & Media",
+                    "Sector Agnostic",
+                    "Fashion & Apparels",
+                    "Food & Beverages"
+                  ]
+                },
+                {
+                  type: "select",
+                  label: "Functional Expertise",
+                  name: "functionalexpertize",
+                  options: [
+                    "Intellectual Property Rights",
+                    "Business Strategy",
+                    "Finance & Accounting",
+                    "Adaptability and Resilience",
+                    "Market Research and Analysis",
+                    "Sales & Marketing",
+                    "Human Resource & Talent Management",
+                    "Leadership & Team Management",
+                    "Product Development",
+                    "Negotiation and Relationship Building",
+                    "Networking & Business Development"
+                  ]
+                },
+                { 
+                  type: "select", 
+                  label: "Are you willing to provide both technical and business/related guidance?", 
+                  name: "willingness",
+                  options: [
+                    "Yes, I can offer both",
+                    "I can primarily provide technical guidance",
+                    "I can primarily provide business guidance"
+                  ]
+                },
+                { 
+                  type: "select", 
+                  label: "Can you provide networking opportunities or make introductions to potential investors, partners, or customers?", 
+                  name: "providenetworkingopportunities", 
+                  options: [
+                    "Yes, I have a strong network",
+                    "I can make some relevant introductions",
+                    "Networking is not my strong suit"
+                  ]
+                },
+                { 
+                  type: "select", 
+                  label: "What is your preferred mode of mentoring?", 
+                  name: "preferredmodeofmentoring", 
+                  options: [
+                    "Online session",
+                    "Offline session",
+                    "Both"
+                  ]
+                },
+                { 
+                  type: "select", 
+                  label: "What is your preferred mentoring style?", 
+                  name: "preferredmentoringstyle", 
+                  options: [
+                    "Hands-on involvement and guidance",
+                    "Providing strategic advice and direction",
+                    "Encouraging critical thinking",
+                    "Connector" 
+                  ]
+                },
+                { type: "text", label: "Any other support you can provide apart from this?", name: "anyothersupport" },
+                { type: "text", label: "Any suggestions/feedback/expectations for Zero2billion", name: "anyotherexpectations" }
+              ]
+            }
+          }          
         ];
 export default formsData;
           
