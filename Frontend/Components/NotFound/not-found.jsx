@@ -1,4 +1,4 @@
-
+import React from "react";
 import Logo from "../../../Data/Images/favicon-logo.png";
 import "./not-found.css";
 

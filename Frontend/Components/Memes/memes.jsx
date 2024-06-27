@@ -1,5 +1,5 @@
 // Memes.jsx
-
+import React from "react";
 import "./memes.css";
 
 const Memes = () => {

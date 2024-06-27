@@ -1,4 +1,4 @@
-
+import React from "react";
 import EventsCard from "./events-card";
 import { EventsData } from "../../../Data/events-data";
 import "./events.css";

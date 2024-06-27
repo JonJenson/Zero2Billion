@@ -1,4 +1,4 @@
-
+import React from "react";
 import imgScr1 from "./Images/about-us-img.png";
 import imgScr2 from "./Images/our-goal-img.png";
 import imgScr3 from "./Images/what-we-do-img.png";

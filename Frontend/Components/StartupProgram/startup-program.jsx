@@ -1,4 +1,4 @@
-
+import React from "react";
 import imgScr from "../../../Data/Images/startup-program-bg.png";
 import StartupProgramCard from "./startup-program-card";
 import { StartupProgramData } from "../../../Data/startup-program-data";

@@ -1,4 +1,4 @@
-
+import React from "react";
 import imgScr1 from "../Data/Images/instagram.png";
 import imgScr2 from "../Data/Images/LinkedIn.png";
 

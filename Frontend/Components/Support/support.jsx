@@ -1,3 +1,4 @@
+import React from "react";
 import SupportCard from "./support-card";
 import { SupportData } from "../../../Data/support-data";
 import "./support.css";

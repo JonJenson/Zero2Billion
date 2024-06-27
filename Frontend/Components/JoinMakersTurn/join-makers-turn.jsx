@@ -1,4 +1,4 @@
-
+import React from "react";
 import JoinMakersTurnCard from "./join-makers-turn-card";
 import { descriptionDetails, JoinMakersTurnData } from "../../../Data/join-makers-turn-data";
 import "./join-makers-turn.css";

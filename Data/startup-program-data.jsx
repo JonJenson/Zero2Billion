@@ -1,4 +1,4 @@
-
+import React from "react";
 import imgSrc1 from "../Data/Images/scratch-img.png";
 import imgSrc2 from "../Data/Images/launch-img.png";
 import imgScr3 from "../Data/Images/commercialization-img.png";

@@ -1,4 +1,4 @@
-
+import React from "react";
 import imgScr from "../Data/Images/know-bg.png";
 
 export const KnowData = {

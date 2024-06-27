@@ -1,4 +1,4 @@
-
+import React from 'react';
 import './roadmap.css';
 
 const RoadMap = () => {
