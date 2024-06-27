@@ -12,7 +12,7 @@ import Apply from "../../Components/Apply/apply";
 import Know from "../../Components/Know/know";
 import Footer from "../../Components/Footer/footer";
 import SmallScreen from "../../Components/SmallScreen/small-screen";
-import "./home-page.css";
+
 import RoadMap from "../../Components/Roadmap/roadmap";
 
 const HomePage = () => {

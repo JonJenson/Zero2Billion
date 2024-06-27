@@ -1,5 +1,5 @@
 import React from "react";
-import rightArrow from "../../../Data/Images/arrow-right.png";
+
 import { Link } from "react-router-dom";
 import { KnowData } from "../../../Data/know-data";
 import "./know.css";

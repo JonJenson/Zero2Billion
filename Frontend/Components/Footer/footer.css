@@ -304,6 +304,7 @@
         margin-left: 0;
         width: 100%;
     }
+    
 }
 
 @media screen and (min-width: 350px) and (max-width: 487px) {
@@ -322,7 +323,6 @@
     }
 
     .footer-cont .fc-img-sec .fc-is-text-cont {
-        width: 290px;
         font-size: 0.95rem;
     }
 
