@@ -1,4 +1,3 @@
-import React from "react";
 import imgScr1 from "../Data/Images/battery-tech.png";
 import imgScr2 from "../Data/Images/vlsi.png";
 import imgScr3 from "../Data/Images/ai-iot.png";

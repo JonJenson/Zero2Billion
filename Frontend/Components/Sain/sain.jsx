@@ -1,4 +1,4 @@
-import React from 'react';
+
 import SainCard from './sain-card';
 import { headingDetails, sainData } from '../../../Data/sain-data';
 import './sain.css';

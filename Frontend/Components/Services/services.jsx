@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from "react";
+import  { useState, useEffect, useCallback } from "react";
 import ServicesCard from "./services-card";
 import { ServicesData } from "../../../Data/services-data";
 import "./services.css";

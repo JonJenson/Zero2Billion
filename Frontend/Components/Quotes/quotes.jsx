@@ -1,4 +1,4 @@
-import React from "react";
+
 import { QuotesData } from "../../../Data/quotes";
 import "./quotes.css";
 

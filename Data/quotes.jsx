@@ -1,4 +1,3 @@
-import React from "react";
 
 export const QuotesData = {
     quote: "\"Universe always falls in love with a stubborn heart\"",

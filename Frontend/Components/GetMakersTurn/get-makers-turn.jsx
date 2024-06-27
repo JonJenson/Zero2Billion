@@ -1,4 +1,3 @@
-import React from "react";
 import GetMakersTurnCard from "./get-makers-turn-card";
 import { GetMakersTurnData } from "../../../Data/get-makers-turn-data";
 import { descriptionDetails } from "../../../Data/join-makers-turn-data";

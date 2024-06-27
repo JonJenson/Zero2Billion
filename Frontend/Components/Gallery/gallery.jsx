@@ -1,4 +1,3 @@
-import React from "react";
 import GalleryCard from "./gallery-card";
 import { GalleryData } from "../../../Data/gallery-data";
 import "./gallery.css";

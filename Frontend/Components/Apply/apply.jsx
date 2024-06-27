@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import ApplyCard from "./apply-card";
 import { ApplyData } from "../../../Data/apply-data";
 import "./apply.css";

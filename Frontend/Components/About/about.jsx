@@ -1,4 +1,4 @@
-import React from "react";
+
 import AboutCard from "./about-card";
 import { AboutData } from "../../../Data/about-data";
 import "./about.css";

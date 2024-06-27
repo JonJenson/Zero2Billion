@@ -1,4 +1,4 @@
-import React from 'react';
+
 import KickoffData from '../../../Data/kickoff-data';
 import KickoffCard from './kickoff-card';
 import './kickoff.css';

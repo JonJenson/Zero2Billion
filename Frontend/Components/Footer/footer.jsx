@@ -1,4 +1,4 @@
-import React from "react";
+
 import imgScr from "../../../Data/Images/logo.png";
 import { Link } from "react-router-dom";
 import { SocialMediaData } from "../../../Data/social-media";

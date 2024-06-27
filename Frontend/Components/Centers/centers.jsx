@@ -1,4 +1,4 @@
-import React from "react";
+
 import CentersCard from "./centers-card";
 import { CentersData } from "../../../Data/centers-page-data";
 import "./centers.css";
