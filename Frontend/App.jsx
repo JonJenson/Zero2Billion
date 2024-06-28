@@ -1,16 +1,18 @@
 import React, { useEffect } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
-import HomePage from "./Pages/Home-Page/home-page";
-import GalleryPage from "./Pages/Gallery-Page/gallery-page";
-import CentersPage from "./Pages/Centers-Page/centers-page";
-import EventsPage from "./Pages/Events-Page/events-page";
-import MakersTurnPage from "./Pages/Makers-Turn-Page/makers-turn-page";
-import NotFoundPage from "./Pages/Not-Found-Page/not-found-page";
+import HomePage from "./Pages/home-page";
+import GalleryPage from "./Pages/gallery-page";
+import CentersPage from "./Pages/centers-page";
+import EventsPage from "./Pages/events-page";
+import MakersTurnPage from "./Pages/makers-turn-page";
+import NotFoundPage from "./Pages/not-found-page";
 import "./App.css";
-import InvestmentPage from "./Pages/Investment-Page/investment-page";
-import FormPage from "./Pages/Form-Page/form-page";
-import AboutPage from "./Pages/About-Page/about-page";
-import MemesPage from "./Pages/Memes-Page/memes-page";
+import InvestmentPage from "./Pages/investment-page";
+import FormPage from "./Pages/form-page";
+import AboutPage from "./Pages/about-page";
+import MemesPage from "./Pages/memes-page";
+import ViewFormPage from "./Pages/view-form-page";
+import AdminPage from "./Pages/admin-page";
 
 export const useScrollToTop = () => {
   const { pathname } = useLocation();
@@ -34,7 +36,9 @@ const App = () => {
         <Route path="/for-investment" element={<InvestmentPage />} />
         <Route path="/form/:id" element={<FormPage />} />
         <Route path="/about-z2b" element={<AboutPage />} />
+        <Route path="/view/:id" element={<ViewFormPage />} />
         <Route path="/memes" element={<MemesPage />} />
+        <Route path="/admin" element={<AdminPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </div>

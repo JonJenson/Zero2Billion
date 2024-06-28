@@ -1,6 +1,6 @@
 import React from "react";
-import NotFound from "../../Components/NotFound/not-found";
-import SmallScreen from "../../Components/SmallScreen/small-screen";
+import NotFound from "../Components/NotFound/not-found";
+import SmallScreen from "../Components/SmallScreen/small-screen";
 
 
 

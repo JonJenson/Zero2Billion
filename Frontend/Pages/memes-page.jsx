@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Navbar from '../../Components/Navbar/navbar';
-import SmallScreen from '../../Components/SmallScreen/small-screen';
+import Navbar from '../Components/Navbar/navbar';
+import SmallScreen from '../Components/SmallScreen/small-screen';
 
-import Memes from '../../Components/Memes/memes';
+import Memes from '../Components/Memes/memes';
 
 const MemesPage = () => {
   const [mobileMenu, setMobileMenu] = useState(false); 
