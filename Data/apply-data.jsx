@@ -61,7 +61,7 @@ export const ApplyData = [
         description: "Join our Mentor Program! Share your expertise, guide others, and make a difference in their careers. Fill out the form below to get started. Thank you!"
     },
     {
-        title: "Co-Working Space",
+        title: "Creative Space",
         formUrl: "/form/15",
         doubleLine: true,
         description: "A collaborative workspace with a productive environment for remote work , networking and communitity events.Ideal for startups, freelancers, and small businesses"
