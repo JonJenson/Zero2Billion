@@ -2,7 +2,7 @@ const formsData = [
     {
       id: 1,
       data: {
-        submitText: "Drop In",
+        submitText: "Drop IN",
         title: "Idea Box",
         fields: [
           { type: "text", label: "Name", name: "name" },
@@ -333,7 +333,7 @@ const formsData = [
             id: 15,
             data: {
               submitText: "Book Now",
-              title: "Co-Working Space",
+              title: "Creative Space",
               fields: [
                 { type: "text", label: "Name", name: "name", },
                 { type: "tel", label: "Mobile Number", name: "mobile", },
