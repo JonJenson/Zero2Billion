@@ -314,7 +314,24 @@ const formsData = [
                 { type: "text", label: "Any suggestions/feedback/expectations for Zero2billion", name: "anyotherexpectations" }
               ]
             }
-          }          
+          },
+          {
+            id: 15,
+            data: {
+              title: "Co-Working Space",
+              fields: [
+                { type: "text", label: "Name", name: "name", },
+                { type: "tel", label: "Mobile Number", name: "mobile", },
+                { type: "email", label: "Email", name: "email"},
+                { type: "select", label: "Category", name: "category", options: ["Hot Desk", "Private Cabin","Private Office Space","Seat","Meeting Room","Multi-Utility Space","Event Space"] },
+                { type: "select", label: "Who can join", name: "whocanjoin", options: ["Starups", "Freelances", "Corporates", "Student Entrepreneurs", "Small business owners","Educators/Faculty", "Researchers" ]  },
+                { type: "text", label: "Name of the Company", name: "nameofthecompany"},
+                { type: "text", label: "Time Period", name: "timeperiod"},
+                { type: "text", label: "Team Size", name: "teamsize", },
+              ]
+            }
+          },       
+
         ];
 export default formsData;
           
