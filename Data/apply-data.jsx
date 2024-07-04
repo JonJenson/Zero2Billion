@@ -63,7 +63,7 @@ export const ApplyData = [
     {
         title: "Creative Space",
         formUrl: "/form/15",
-        doubleLine: true,
+        doubleLine: false,
         description: "A collaborative workspace with a productive environment for remote work , networking and communitity events.Ideal for startups, freelancers, and small businesses"
     },
     ];
