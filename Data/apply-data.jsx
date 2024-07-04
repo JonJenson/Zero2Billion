@@ -60,4 +60,10 @@ export const ApplyData = [
         doubleLine: false,
         description: "Join our Mentor Program! Share your expertise, guide others, and make a difference in their careers. Fill out the form below to get started. Thank you!"
     },
+    {
+        title: "Co-Working Space",
+        formUrl: "/form/15",
+        doubleLine: true,
+        description: "A collaborative workspace offering a productive environment for remote work and networking."
+    },
     ];

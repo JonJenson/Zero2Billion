@@ -1,0 +1,52 @@
+.view-forms-container {
+  margin: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+}
+
+.form-data-table th,
+.form-data-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  
+}
+
+.form-data-table th {
+  background-color: #C3D9F0; /* Set background color for table headings */
+  font-weight: 700; /* Increased weight for table headings */
+  font-size: 1.1em; /* Slightly larger font for headings */
+  color: #292F53; /* Set text color for table headings */
+  text-align: center;
+}
+
+.form-data-table td {
+  font-weight: 400; /* Normal text weight for table data */
+  font-size: 1em;
+  color: #292F53; /* Ensure consistency in text color for table data */
+  text-align: center;
+}
+
+.centered-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--color-0F1A3A);
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+@media (max-width: 349px), (max-height: 349px) {
+  .view-forms-container {
+    display: none;
+  }
+  .centered-text{
+    display:none;
+  }
+}

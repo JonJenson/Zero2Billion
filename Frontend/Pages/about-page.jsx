@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import Navbar from '../../Components/Navbar/navbar';
-import SmallScreen from '../../Components/SmallScreen/small-screen';
-import Footer from '../../Components/Footer/footer';
-import Kickoff from '../../Components/Kickoff/kickoff';
-import OurCoaches from '../../Components/OurCoaches/ourcoaches';
+import Navbar from '../Components/Navbar/navbar';
+import SmallScreen from '../Components/SmallScreen/small-screen';
+import Footer from '../Components/Footer/footer';
+import Kickoff from '../Components/Kickoff/kickoff';
+import OurCoaches from '../Components/OurCoaches/ourcoaches';
 
 const AboutPage = () => {
   const [mobileMenu, setMobileMenu] = useState(false); 
