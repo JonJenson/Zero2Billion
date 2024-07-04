@@ -4,16 +4,16 @@ const formsData = [
       data: {
         title: "Idea Box",
         fields: [
-          { type: "text", label: "Name", name: "name", alignment: "left" },
-          { type: "text", label: "College", name: "college", alignment: "Right" },
-          { type: "tel", label: "Mobile Number", name: "mobile", alignment: "left" },
-          { type: "text", label: "Dept and Yr", name: "department&yr", alignment: "right" },
-          { type: "text", label: "Domain", name: "domain", alignment: "left" },
-          { type: "email", label: "Email", name: "email", alignment: "right" },
-          { type: "textarea", label: "Problem Statement", name: "problemstatement", alignment: "left" },
-          { type: "textarea", label: "Why Startup", name: "whystartup", alignment: "left" },
-          { type: "textarea", label: "Brief outline on your Startup Idea?", name: "briefoutlineonyourstartupidea", alignment: "left" },
-          { type: "text", label: "Attach Document (Drive Link)", name: "document", alignment: "left" },
+          { type: "text", label: "Name", name: "name" },
+          { type: "text", label: "College", name: "college"},
+          { type: "tel", label: "Mobile Number", name: "mobile" },
+          { type: "text", label: "Dept and Yr", name: "department&yr"},
+          { type: "text", label: "Domain", name: "domain" },
+          { type: "email", label: "Email", name: "email"},
+          { type: "textarea", label: "Problem Statement", name: "problemstatement" },
+          { type: "textarea", label: "Why Startup", name: "whystartup" },
+          { type: "textarea", label: "Brief outline on your Startup Idea?", name: "briefoutlineonyourstartupidea" },
+          { type: "text", label: "Attach Document (Drive Link)", name: "document" },
         ]
       }
     },
@@ -22,13 +22,13 @@ const formsData = [
       data: {
         title: "Know Your Valuation",
         fields: [
-          { type: "text", label: "Name of the Startup", name: "startupname", alignment: "left" },
-          { type: "email", label: "Email", name: "email", alignment: "right" },
-          { type: "text", label: "Startup Domain", name: "startupdomain", alignment: "left" },
-          { type: "tel", label: "Mobile Number", name: "mobile", alignment: "left" },
+          { type: "text", label: "Name of the Startup", name: "startupname" },
+          { type: "email", label: "Email", name: "email"},
+          { type: "text", label: "Startup Domain", name: "startupdomain" },
+          { type: "tel", label: "Mobile Number", name: "mobile" },
           { type: "select", label: "Is your Startup DPIIT Registered?", name: "registered", options: ["Yes", "No"] },
           { type: "select", label: "Type of Valuation", name: "typeofvaluation", options: ["pre-money valuation", "post-money valuation"] },
-          { type: "text", label: "Attach Document (Drive Link)", name: "doc", alignment: "left" },
+          { type: "text", label: "Attach Document (Drive Link)", name: "doc" },
         ]
       }
     },
@@ -37,14 +37,14 @@ const formsData = [
       data: {
         title: "Industry Support",
         fields: [
-          { type: "text", label: "Name", name: "name", alignment: "left" },
-          { type: "email", label: "Email", name: "email", alignment: "right" },
-          { type: "text", label: "Organization", name: "organization", alignment: "left" },
-          { type: "tel", label: "Mobile Number", name: "mobile", alignment: "right" },
-          { type: "textarea", label: "Describe Your Problem Statement", name: "describeyourproblemstatement", alignment: "left" },
-          { type: "textarea", label: "What solution are you looking for?", name: "whatsolutionareyoulookingfor", alignment: "left" },
-          { type: "textarea", label: "Any other requirements?", name: "anyotherrequirements", alignment: "left" },
-          { type: "text", label: "Attach Document (Drive Link)", name: "attachdocument", alignment: "left" },
+          { type: "text", label: "Name", name: "name" },
+          { type: "email", label: "Email", name: "email"},
+          { type: "text", label: "Organization", name: "organization" },
+          { type: "tel", label: "Mobile Number", name: "mobile"},
+          { type: "textarea", label: "Describe Your Problem Statement", name: "describeyourproblemstatement" },
+          { type: "textarea", label: "What solution are you looking for?", name: "whatsolutionareyoulookingfor" },
+          { type: "textarea", label: "Any other requirements?", name: "anyotherrequirements" },
+          { type: "text", label: "Attach Document (Drive Link)", name: "attachdocument" },
         ]
       }
     },
@@ -53,14 +53,14 @@ const formsData = [
       data: {
         title: "Internships",
         fields: [
-          { type: "text", label: "Name of the Applicant", name: "nameoftheapplicant", alignment: "left" },
-          { type: "email", label: "Email", name: "email", alignment: "right" },
-          { type: "tel", label: "Mobile Number", name: "mobile", alignment: "left" },
-          { type: "select", label: "Applicant Category", name: "applicantcategory", options: ["Student", "Individual", "Faculty"], alignment: "right" },
-          { type: "textarea", label: "Domain Interest", name: "domaininterest", alignment: "left" },
-          { type: "textarea", label: "Acquired Skills? Mention in brief", name: "skills", alignment: "left" },
-          { type: "textarea", label: "Internship Duration", name: "internshipduration", alignment: "left" },
-          { type: "text", label: "Submit your profile or bio (Drive Link)", name: "submityourprofileorbio", alignment: "left" },
+          { type: "text", label: "Name of the Applicant", name: "nameoftheapplicant" },
+          { type: "email", label: "Email", name: "email"},
+          { type: "tel", label: "Mobile Number", name: "mobile" },
+          { type: "select", label: "Applicant Category", name: "applicantcategory", options: ["Student", "Individual", "Faculty"]},
+          { type: "textarea", label: "Domain Interest", name: "domaininterest" },
+          { type: "textarea", label: "Acquired Skills? Mention in brief", name: "skills" },
+          { type: "textarea", label: "Internship Duration", name: "internshipduration" },
+          { type: "text", label: "Submit your profile or bio (Drive Link)", name: "submityourprofileorbio" },
         ]
       }
     },
@@ -69,16 +69,16 @@ const formsData = [
       data: {
         title: "Skill Enhancement",
         fields: [
-          { type: "text", label: "Name", name: "name", alignment: "left" },
-          { type: "tel", label: "Mobile Number", name: "mobile", alignment: "right" },
-          { type: "email", label: "Email", name: "email", alignment: "left" },
-          { type: "select", label: "Representing as?", name: "representing", options: ["Institution", "Individual", "Startup"], alignment: "right" },
-          { type: "text", label: "Name of the Organization", name: "organizationname", alignment: "left" },
-          { type: "text", label: "How long since inception?", name: "inception", alignment: "right" },
-          { type: "select", label: "Do you want to be onboarded as?", name: "onboard", options: ["Explorer", "Service Provider"], alignment: "left" },
-          { type: "select", label: "Duration of Hands-On Session", name: "session", options: ["1 Day", "3 Day", "1 Week", "1 Month"], alignment: "left" },
-          { type: "textarea", label: "Which field are you strong in?", name: "field", alignment: "left" },
-          { type: "textarea", label: "If Institute, What is the count of students interested in Hands-on Session", name: "count", alignment: "left" },
+          { type: "text", label: "Name", name: "name" },
+          { type: "tel", label: "Mobile Number", name: "mobile"},
+          { type: "email", label: "Email", name: "email" },
+          { type: "select", label: "Representing as?", name: "representing", options: ["Institution", "Individual", "Startup"]},
+          { type: "text", label: "Name of the Organization", name: "organizationname" },
+          { type: "text", label: "How long since inception?", name: "inception"},
+          { type: "select", label: "Do you want to be onboarded as?", name: "onboard", options: ["Explorer", "Service Provider"] },
+          { type: "select", label: "Duration of Hands-On Session", name: "session", options: ["1 Day", "3 Day", "1 Week", "1 Month"] },
+          { type: "textarea", label: "Which field are you strong in?", name: "field" },
+          { type: "textarea", label: "If Institute, What is the count of students interested in Hands-on Session", name: "count" },
         ]
       }
     },
@@ -169,16 +169,16 @@ const formsData = [
             data: {
               title: "SAIN for Startups",
               fields: [
-                { type: "text", label: "Name", name: "name", alignment: "left" },
-                { type: "text", label: "Domain", name: "domain", alignment: "left" },
-                { type: "text", label: "College", name: "college", alignment: "Right" },
-                { type: "email", label: "Email", name: "email", alignment: "right" },
-                { type: "tel", label: "Mobile Number", name: "mobile", alignment: "left" },
-                { type: "text", label: "Dept and Yr", name: "department&yr", alignment: "right" },
-                { type: "textarea", label: "Problem Statement", name: "problemstatement1", alignment: "left" },
-                { type: "textarea", label: "Why Startup", name: "whystartup1", alignment: "left" },
-                { type: "textarea", label: "Brief outline on your Startup Idea?", name: "briefoutlineonyourstartupidea", alignment: "left" },
-                { type: "text", label: "Attach Document (Drive Link)", name: "document1", alignment: "left" },
+                { type: "text", label: "Name", name: "name" },
+                { type: "text", label: "Domain", name: "domain" },
+                { type: "text", label: "College", name: "college"},
+                { type: "email", label: "Email", name: "email"},
+                { type: "tel", label: "Mobile Number", name: "mobile" },
+                { type: "text", label: "Dept and Yr", name: "department&yr"},
+                { type: "textarea", label: "Problem Statement", name: "problemstatement1" },
+                { type: "textarea", label: "Why Startup", name: "whystartup1" },
+                { type: "textarea", label: "Brief outline on your Startup Idea?", name: "briefoutlineonyourstartupidea" },
+                { type: "text", label: "Attach Document (Drive Link)", name: "document1" },
               ]
             }
           },
@@ -325,13 +325,13 @@ const formsData = [
                 { type: "email", label: "Email", name: "email"},
                 { type: "select", label: "Category", name: "category", options: ["Hot Desk", "Private Cabin","Private Office Space","Seat","Meeting Room","Multi-Utility Space","Event Space"] },
                 { type: "select", label: "Who can join", name: "whocanjoin", options: ["Starups", "Freelances", "Corporates", "Student Entrepreneurs", "Small business owners","Educators/Faculty", "Researchers" ]  },
+                { type: "text", label: "Who can join", name: "whocanjoin", },
                 { type: "text", label: "Name of the Company", name: "nameofthecompany"},
                 { type: "text", label: "Time Period", name: "timeperiod"},
                 { type: "text", label: "Team Size", name: "teamsize", },
               ]
             }
           },       
-
         ];
 export default formsData;
           

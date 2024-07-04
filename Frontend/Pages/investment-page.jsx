@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import Navbar from '../../Components/Navbar/navbar';
-import SmallScreen from '../../Components/SmallScreen/small-screen';
-import Footer from '../../Components/Footer/footer';
-import Sain from '../../Components/Sain/sain';
-import Assistance from '../../Components/Assistance/assitance';
+import Navbar from '../Components/Navbar/navbar';
+import SmallScreen from '../Components/SmallScreen/small-screen';
+import Footer from '../Components/Footer/footer';
+import Sain from '../Components/Sain/sain';
+import Assistance from '../Components/Assistance/assitance';
 
 const InvestmentPage = () => {
   const [mobileMenu, setMobileMenu] = useState(false); 
