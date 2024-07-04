@@ -64,6 +64,6 @@ export const ApplyData = [
         title: "Co-Working Space",
         formUrl: "/form/15",
         doubleLine: true,
-        description: "A collaborative workspace offering a productive environment for remote work and networking."
+        description: "A collaborative workspace with a productive environment for remote work , networking and communitity events.Ideal for startups, freelancers, and small businesses"
     },
     ];

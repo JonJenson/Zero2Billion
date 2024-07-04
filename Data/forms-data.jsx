@@ -2,6 +2,7 @@ const formsData = [
     {
       id: 1,
       data: {
+        submitText: "Drop In",
         title: "Idea Box",
         fields: [
           { type: "text", label: "Name", name: "name" },
@@ -20,6 +21,7 @@ const formsData = [
     {
       id: 2,
       data: {
+        submitText: "Sumbit",
         title: "Know Your Valuation",
         fields: [
           { type: "text", label: "Name of the Startup", name: "startupname" },
@@ -35,6 +37,7 @@ const formsData = [
     {
       id: 3,
       data: {
+        submitText: "Sumbit",
         title: "Industry Support",
         fields: [
           { type: "text", label: "Name", name: "name" },
@@ -51,6 +54,7 @@ const formsData = [
     {
       id: 4,
       data: {
+        submitText: "Sumbit",
         title: "Internships",
         fields: [
           { type: "text", label: "Name of the Applicant", name: "nameoftheapplicant" },
@@ -67,6 +71,7 @@ const formsData = [
     {
       id: 5,
       data: {
+        submitText: "Sumbit",
         title: "Skill Enhancement",
         fields: [
           { type: "text", label: "Name", name: "name" },
@@ -85,6 +90,7 @@ const formsData = [
     {
       id: 6,
       data: {
+        submitText: "Sumbit",
         title: "Go-To-Market",
         fields: [
           { type: "text", label: "Name", name: "name" },
@@ -99,6 +105,7 @@ const formsData = [
     {
       id: 7,
       data: {
+        submitText: "Sumbit",
         title: "Bose Series",
         fields: [
           { type: "text", label: "Name", name: "name" },
@@ -113,6 +120,7 @@ const formsData = [
         {
           id: 8,
           data: {
+            submitText: "Sumbit",
             title: "COE's",
             fields: [
               { type: "text", label: "Name of the Institution / Startup / Industry", name: "nameoftheinstitution" },
@@ -131,6 +139,7 @@ const formsData = [
         {
           id: 9,
           data: {
+            submitText: "Sumbit",
             title: "Admission Strategy",
             fields: [
               { type: "text", label: "Name of the institution", name: "nameoftheinstitution" },
@@ -150,6 +159,7 @@ const formsData = [
         {
           id: 10,
           data: {
+            submitText: "Sumbit",
             title: "SAIN for Investor",
             fields: [
               { type: "text", label: "Name", name: "nameoftheInvestor", alignment: 'left' },
@@ -167,6 +177,7 @@ const formsData = [
         {
             id: 11,
             data: {
+              submitText: "Sumbit",
               title: "SAIN for Startups",
               fields: [
                 { type: "text", label: "Name", name: "name" },
@@ -185,6 +196,7 @@ const formsData = [
           {
             id: 12,
             data: {
+              submitText: "Sumbit",
               title: "Individual",
               fields: [
                 { type: "text", label: "Name", name: "name" },
@@ -203,6 +215,7 @@ const formsData = [
           {
             id: 13,
             data: {
+              submitText: "Sumbit",
               title: "Institute",
               fields: [
                 { type: "text", label: "Name of the Institution", name: "nameoftheinstitution" },
@@ -222,6 +235,7 @@ const formsData = [
           {
             id: 14,
             data: {
+              submitText: "Sumbit",
               title: "Be A Mentor",
               fields: [
                 { type: "email", label: "Email", name: "email" },
@@ -318,13 +332,14 @@ const formsData = [
           {
             id: 15,
             data: {
+              submitText: "Book Now",
               title: "Co-Working Space",
               fields: [
                 { type: "text", label: "Name", name: "name", },
                 { type: "tel", label: "Mobile Number", name: "mobile", },
                 { type: "email", label: "Email", name: "email"},
                 { type: "select", label: "Category", name: "category", options: ["Hot Desk", "Private Cabin","Private Office Space","Seat","Meeting Room","Multi-Utility Space","Event Space"] },
-                { type: "select", label: "Who can join", name: "whocanjoin", options: ["Starups", "Freelances", "Corporates", "Student Entrepreneurs", "Small business owners","Educators/Faculty", "Researchers" ]  },
+                { type: "select", label: "Who can join", name: "whocanjoin", options: ["Startups", "Freelancers", "Corporates/Enterprises", "SME's", "Researchers/Faculty" ]  },
                 { type: "text", label: "Name of the Company", name: "nameofthecompany"},
                 { type: "text", label: "Time Period", name: "timeperiod"},
                 { type: "text", label: "Team Size", name: "teamsize", },

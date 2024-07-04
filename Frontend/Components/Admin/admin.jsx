@@ -20,7 +20,7 @@ const Admin = () => {
 
   const handleFetchData = () => {
     // Validate password here (e.g., minimum length, specific characters, etc.)
-    if (password !== 'jonjenson') {
+    if (password !== 'Praka@1985') {
       setPasswordError('Incorrect password . Retry again');
       return;
     }

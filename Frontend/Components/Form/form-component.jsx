@@ -23,6 +23,7 @@ const FormComponent = ({ formId }) => {
     return <div>Form not found</div>;
   }
   const title = formsData[formId - 1].data.title;
+  const submitText = form.data.submitText || "Submit";
   const [formData, setFormData] = useState(
     form.data.fields.reduce((acc, field) => {
       acc[field.name] = '';
@@ -103,7 +104,7 @@ const FormComponent = ({ formId }) => {
             </div>
           ))}
           <div className="submit-button">
-            <button type="submit">Submit</button>
+            <button type="submit">{submitText}</button>
           </div>
         </form>
       </div>
