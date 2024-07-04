@@ -325,7 +325,6 @@ const formsData = [
                 { type: "email", label: "Email", name: "email"},
                 { type: "select", label: "Category", name: "category", options: ["Hot Desk", "Private Cabin","Private Office Space","Seat","Meeting Room","Multi-Utility Space","Event Space"] },
                 { type: "select", label: "Who can join", name: "whocanjoin", options: ["Starups", "Freelances", "Corporates", "Student Entrepreneurs", "Small business owners","Educators/Faculty", "Researchers" ]  },
-                { type: "text", label: "Who can join", name: "whocanjoin", },
                 { type: "text", label: "Name of the Company", name: "nameofthecompany"},
                 { type: "text", label: "Time Period", name: "timeperiod"},
                 { type: "text", label: "Team Size", name: "teamsize", },
