@@ -8,6 +8,7 @@ const ApplyCard = ({
     formUrl,
     description,
     doubleLine,
+    submitText,
     isOpen,
     handleClickOpen,
     handleClickClose
@@ -37,7 +38,7 @@ const ApplyCard = ({
                     className="ac-cc-cc-submit-button"
                     title="Submit Now"
                 >
-                    Submit Now
+                    {submitText}
                 </Link>
             </div>
         </div>

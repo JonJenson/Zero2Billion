@@ -3,6 +3,7 @@ import ApplyCard from "./apply-card";
 import { ApplyData } from "../../../Data/apply-data";
 import "./apply.css";
 
+
 const Apply = () => {
     const [openCard, setOpenCard] = useState(null);
 
@@ -30,6 +31,7 @@ const Apply = () => {
                                 description={item.description}
                                 formUrl={item.formUrl}
                                 doubleLine={item.doubleLine}
+                                submitText={item.submitText}
                                 isOpen={openCard === index + 1}
                                 handleClickOpen={() => handleClickOpen(index + 1)}
                                 handleClickClose={handleClickClose}
