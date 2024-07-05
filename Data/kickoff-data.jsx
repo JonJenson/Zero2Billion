@@ -3,7 +3,8 @@ import MechimedTechnologies from "./Images/mechimed.png";
 import LazyCrew from "./Images/lazy-crew.png";
 import Quazr from "./Images/quazr.png";
 import Indu from "./Images/indus-kitchen.png";
-import eDigim from "./Images/e-digma.png";
+import eDigim from "./Images/e-digim.jpg";
+
 
 
 const KickoffData = [
